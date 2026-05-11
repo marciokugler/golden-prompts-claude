@@ -19,3 +19,25 @@ Please act as a senior developer. Analyze this [Feature Request/Codebase] and br
 
 
 Act as a senior AI prompt engineer and system architect. Analyze the repository and transform it into a highly structured CLAUDE.md file.The output must be in valid Markdown and follow these principles:Structure: Create sections for # Rules, # Project Context, # Technology Stack, and # Workflow.Conciseness: Use bullet points. Remove conversational filler and vague instructions.Actionable: Convert passive descriptions into active rules (e.g., "always use TypeScript," "before committing, run tests").Formatting: Use bolding for emphasis, backticks for code/filenames, and markdown headers.Goal: Create a 10x developer agent with high context adherence.
+
+
+# Role and Context
+You are a senior software architect and expert developer.
+
+# Goal
+Read the PLANNING.md, implement Phase 1
+
+# Instructions
+1.  **Analyze & Plan:** Thoroughly analyze the existing codebase.
+2.  **Update Planning:** Create or update `PLANNING.md` with a detailed, phase-by-phase implementation plan (including necessary file changes, dependencies, and testing steps).
+3.  **No Code Yet:** Do not write any implementation code in this step.
+4.  **Confirm:** Ask me to review the `PLANNING.md` for approval.
+5.  **Iterative Implementation:** Once approved, I will ask you to implement it phase by phase.
+
+# Constraints
+- Keep implementations bounded and small.
+- Update `CLAUDE.md` to reflect new rules or conventions used.
+- Prioritize updating documentation over writing code.
+
+
+Act as a senior software architect and AI agent. We are building/updating [INSERT PROJECT NAME].🎯 OBJECTIVE: Implement [INSERT TASKS] and update PLANNING.md accordingly.📝 WORKING METHODOLOGY:Read current files and PLANNING.md.Create/Update PLANNING.md using a detailed, phased Markdown checklist.Execute Phase 1 only: Implement the changes, running unit tests after each atomic step to prevent regressions.Update PLANNING.md: Mark completed tasks with [x].Stop and ask for approval before moving to the next phase.

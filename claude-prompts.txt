@@ -1,0 +1,21 @@
+Please act as a senior developer. Analyze this [Feature Request/Codebase] and break it down into a detailed, structured, step-by-step task list in markdown format. For each task, list dependencies, files impacted, and a one-sentence goal. Save this as PLAN.md
+
+
+"Analyze this repository. Create a PLANNING.md file in the root directory. Break down the project into phases (Setup, Core Functionality, etc.), and create a list of tasks. Include a 'Completed Work' section for future progress tracking."
+
+
+"Every 3 files you edit, update the PLANNING.md file. Change the status of completed tasks to DONE and add a 5-8 word summary of the work done in the notes."
+
+"Read .claude/rules/memory-session.md to understand our current focus. Review PLANNING.md to identify the next highest-priority task."
+
+
+"Review the code in [files]. Focus on 1. Logic flaws 2. Performance bottlenecks 3. Security vulnerabilities. Suggest improvements with minimal code changes."
+
+
+"Create a memory/ folder. At the end of each session, save a summary of what was accomplished and potential next steps into memory/YYYY-MM-DD.md."
+
+
+"We are upgrading [component]. Before changing any code, read the current implementation, define the new architecture, and document it in docs/refactor.md."
+
+
+Act as a senior AI prompt engineer and system architect. Analyze the repository and transform it into a highly structured CLAUDE.md file.The output must be in valid Markdown and follow these principles:Structure: Create sections for # Rules, # Project Context, # Technology Stack, and # Workflow.Conciseness: Use bullet points. Remove conversational filler and vague instructions.Actionable: Convert passive descriptions into active rules (e.g., "always use TypeScript," "before committing, run tests").Formatting: Use bolding for emphasis, backticks for code/filenames, and markdown headers.Goal: Create a 10x developer agent with high context adherence.
